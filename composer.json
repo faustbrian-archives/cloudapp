@@ -1,7 +1,7 @@
 {
     "name": "faustbrian/cloudapp-php-client",
     "description": "A CloudApp Client for PHP",
-    "keywords": ["api", "faustbrian", "faustbrian-cloudapp", "cloudapp", "Brian Faust", "faustbrian"],
+    "keywords": ["api", "cloudapp", "Brian Faust", "faustbrian"],
     "license": "MIT",
     "authors": [{
         "name": "Brian Faust",
