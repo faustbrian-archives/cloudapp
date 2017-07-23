@@ -11,8 +11,8 @@
 
 namespace BrianFaust\CloudApp\API;
 
-use BrianFaust\CloudApp\Models\Item;
 use BrianFaust\Http\HttpResponse;
+use BrianFaust\CloudApp\Models\Item;
 
 class Items extends AbstractAPI
 {
