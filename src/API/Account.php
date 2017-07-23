@@ -11,8 +11,8 @@
 
 namespace BrianFaust\CloudApp\API;
 
-use BrianFaust\CloudApp\Models\Account;
 use BrianFaust\Http\HttpResponse;
+use BrianFaust\CloudApp\Models\Account;
 
 class Account extends AbstractAPI
 {
