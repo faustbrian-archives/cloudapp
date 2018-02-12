@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 namespace BrianFaust\CloudApp\API;
 
-use BrianFaust\Http\HttpResponse;
 use BrianFaust\CloudApp\Models\Account;
+use BrianFaust\Http\HttpResponse;
 
 class Account extends AbstractAPI
 {
