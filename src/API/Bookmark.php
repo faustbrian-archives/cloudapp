@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 namespace BrianFaust\CloudApp\API;
 
-use BrianFaust\Http\HttpResponse;
 use BrianFaust\CloudApp\Models\Item;
+use BrianFaust\Http\HttpResponse;
 
 class Bookmark extends AbstractAPI
 {
