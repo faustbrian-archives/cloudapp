@@ -5,27 +5,27 @@ declare(strict_types=1);
 /*
  * This file is part of CloudApp PHP Client.
  *
- * (c) Brian Faust <hello@brianfaust.me>
+ * (c) Brian Faust <hello@basecode.sh>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace BrianFaust\CloudApp\API;
+namespace Plients\CloudApp\API;
 
-use BrianFaust\Http\PendingHttpRequest;
+use Plients\Http\PendingHttpRequest;
 
 abstract class AbstractAPI
 {
     /**
-     * @var \BrianFaust\Http\PendingHttpRequest
+     * @var \Plients\Http\PendingHttpRequest
      */
     protected $client;
 
     /**
      * Create a new API class instance.
      *
-     * @param \BrianFaust\Http\PendingHttpRequest $client
+     * @param \Plients\Http\PendingHttpRequest $client
      */
     public function __construct(PendingHttpRequest $client)
     {

@@ -5,15 +5,15 @@ declare(strict_types=1);
 /*
  * This file is part of CloudApp PHP Client.
  *
- * (c) Brian Faust <hello@brianfaust.me>
+ * (c) Brian Faust <hello@basecode.sh>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace BrianFaust\CloudApp;
+namespace Plients\CloudApp;
 
-use BrianFaust\Http\Http;
+use Plients\Http\Http;
 
 class Client
 {
@@ -44,7 +44,7 @@ class Client
      *
      * @param string $name
      *
-     * @return \BrianFaust\CloudApp\API\AbstractAPI
+     * @return \Plients\CloudApp\API\AbstractAPI
      */
     public function api(string $name): API\AbstractAPI
     {
@@ -52,7 +52,7 @@ class Client
             ->withBaseUri('https://my.cl.ly/v3/')
             ->withDigestAuth($this->username, $this->password);
 
-        $class = "BrianFaust\\CloudApp\\API\\{$name}";
+        $class = "Plients\\CloudApp\\API\\{$name}";
 
         return new $class($client);
     }
